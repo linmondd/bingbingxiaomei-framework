@@ -181,9 +181,11 @@ description: |
 | 2 | AI-美元战略 | 美债+AI+稳定币=同一链条 | `claim-ai-dollar-strategy` (A级) |
 | 3 | 三层流动性 | 宏观→中观→微观，钱的方向决定一切 | `knowledge/liquidity-three-layers.md` |
 | 4 | 亏钱效应 | 一切交易的开端 | `knowledge/loss-effect.md` |
-| 5 | 产业映射 | 旧经济化债，新经济做大蛋糕 | `claim-property-tech-cycle` |
+| 5 | 产业映射 | 房地产旧周期→科技新周期 | `knowledge/property-tech-cycle.md` |
 | 6 | 交易三要素 | 情绪/流动性/盈亏联动 | `knowledge/trading-three-elements.md` |
-| 7 | 中央加杠杆 | 财政+央行+化债的承接机制 | `knowledge/central-leverage.md` (U级线索) |
+| 7 | 中央加杠杆 | 财政+央行+化债的承接 | `knowledge/central-leverage.md` |
+| 8 | 金融三功能 | 融资/纾困/投资 | `knowledge/finance-three-functions.md` |
+| 9 | 猪周期 | 产业周期方法案例 | `knowledge/pig-cycle.md` |
 
 ---
 

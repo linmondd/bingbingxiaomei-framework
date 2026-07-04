@@ -37,6 +37,21 @@
 **完整展开** → `knowledge/central-leverage.md`
 **局限**：汇率稳定、通胀、资产价格之间存在约束。
 
+## 模型 8: 金融三功能
+**一句话**：融资、纾困、投资——金融市场三项功能，解释化债与新旧分化。
+**完整展开** → `knowledge/finance-three-functions.md`、`claim-finance-three-functions` (B级)
+**局限**：三分法是简化框架，市场功能可有更多维度。
+
+## 模型 9: 产业映射
+**一句话**：看空房地产 = 做多科技，旧经济处理旧债，新经济做大蛋糕。
+**完整展开** → `knowledge/property-tech-cycle.md`、`claim-property-tech-cycle` (B级)
+**局限**：科技板块也可能高估，地产政策边际变化可能反弹。
+
+## 模型 10: 猪周期
+**一句话**：把宏观周期方法落到供需产业——产能、成本、政策、股价的领先/滞后关系。
+**完整展开** → `knowledge/pig-cycle.md`、`claim-pig-cycle-framework` (D级)
+**局限**：行业周期右侧和股价左侧可能错位；外生冲击可打破周期。
+
 ---
 
 **加载规则**：Agent 只需加载当前问题涉及的心智模型对应文件，不需全量注入。
