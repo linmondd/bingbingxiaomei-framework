@@ -58,10 +58,13 @@ def now_iso() -> str:
 
 def login() -> None:
     """Open a visible browser so the user can log into Xueqiu manually.
-    After login, close the browser to save the auth state."""
+    After login, press Enter in the terminal to save the auth state."""
     from playwright.sync_api import sync_playwright
 
-    print("🔐 正在启动浏览器… 请在浏览器中登录雪球，完成后关闭浏览器窗口。")
+    print("🔐 正在启动浏览器…")
+    print("    👉 如果需要验证码，请在浏览器中手动滑动通过")
+    print("    👉 请扫码或账号密码登录雪球")
+    print("    👉 登录成功后，回到这里按 Enter 保存…")
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
         context = browser.new_context(
@@ -69,24 +72,15 @@ def login() -> None:
             locale="zh-CN",
         )
         page = context.new_page()
-        page.goto("https://xueqiu.com/", wait_until="domcontentloaded")
-        print("    👉 请在浏览器中完成登录（扫码或账号密码均可）")
-        print("    👉 登录成功后，关闭浏览器窗口或按 Ctrl+C 继续…")
+        page.goto("https://xueqiu.com/7143769715/398214872", wait_until="domcontentloaded")
         try:
-            # keep alive until user closes
-            while True:
-                try:
-                    if page.is_closed():
-                        break
-                except Exception:
-                    break
-                time.sleep(1)
-        except KeyboardInterrupt:
+            input("    ⏎ 按 Enter 保存登录态…")
+        except (KeyboardInterrupt, EOFError):
             pass
         finally:
             context.storage_state(path=str(AUTH_STATE))
             browser.close()
-    print(f"✅ 登录态已保存到 {AUTH_STATE}")
+    print(f"✅ 登录态已保存")
 
 
 # ── scraping ─────────────────────────────────────────────────────────
