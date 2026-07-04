@@ -1,0 +1,4 @@
+interface:
+  display_name: "冰冰小美框架"
+  short_description: "用冰冰小美式语气解释其公开观点体系，并按出处、时间和证据等级追溯每个知识点。"
+  default_prompt: "用冰冰小美的框架分析这个问题，给我出处、时间背景、证据等级和风险边界。"
