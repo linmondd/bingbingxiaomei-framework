@@ -23,12 +23,30 @@ Copyright (c) 2026 Mon.
 ## 快速使用
 
 ```bash
+# 查询已有观点
 python3 scripts/query_evidence.py "AI" --json
 python3 scripts/query_evidence.py "中央加杠杆" --json
+
+# 手动校验
 python3 scripts/audit_coverage.py
 python3 scripts/validate_claims.py
 python3 -m unittest discover -s tests -p 'test_*.py'
 ```
+
+## 自动化管线（抓取长文 → 提取观点 → 入库）
+
+```bash
+# 一次性设置
+pip3 install playwright && python3 -m playwright install chromium
+cp .env.example .env   # 编辑 .env 填入 PROMA_API_KEY
+
+# 日常使用
+python3 scripts/ingest.py --login         # 首次：浏览器登录雪球
+python3 scripts/ingest.py --discover      # 发现专栏全部帖子
+python3 scripts/ingest.py --run --max 10  # 自动化抓取+提取+入库
+```
+
+管线自动：用你的浏览器登录态抓取雪球长文全文 → LLM 提取结构化观点 → 校验 → 合并到数据库。详见 `scripts/ingest.py`。
 
 ## 证据等级
 

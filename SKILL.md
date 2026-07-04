@@ -97,9 +97,29 @@ Required memo fields:
 新增观点前先补来源，再补 claim。运行：
 
 ```bash
+# 一次性登录（通过浏览器登录雪球并保存状态）
+python3 scripts/ingest.py --login
+
+# 发现所有帖子
+python3 scripts/ingest.py --discover
+
+# 自动化管线：抓取 → LLM 提取 → 校验 → 入库（默认最多5篇）
+python3 scripts/ingest.py --run --max 5
+
+# 试运行（不写入数据库）
+python3 scripts/ingest.py --run --max 3 --dry-run
+
+# 处理指定帖子
+python3 scripts/ingest.py --run --urls https://xueqiu.com/7143769715/398214872
+
+# 手动校验
 python3 scripts/validate_claims.py
 python3 scripts/audit_coverage.py
 python3 -m unittest discover -s tests -p 'test_*.py'
 ```
 
-不得宣称“已经收齐她所有观点”。只能说明已检索、已覆盖和仍待恢复的范围。
+管线需要两个前置条件：
+1. 安装 Playwright：`pip3 install playwright && python3 -m playwright install chromium`
+2. 配置 API Key：`cp .env.example .env`，然后编辑 `.env` 填入 `PROMA_API_KEY`
+
+不得宣称”已经收齐她所有观点”。只能说明已检索、已覆盖和仍待恢复的范围。

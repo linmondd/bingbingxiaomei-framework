@@ -8,3 +8,7 @@ __pycache__/
 .mypy_cache/
 .coverage
 htmlcov/
+
+# Ingestion pipeline — sensitive local data
+data/scraped/
+data/xueqiu_auth.json
