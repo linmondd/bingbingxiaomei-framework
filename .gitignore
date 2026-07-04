@@ -13,3 +13,4 @@ htmlcov/
 data/scraped/
 data/browser-profile/
 data/xueqiu_auth.json
+data/bulk_posts.jsonl
