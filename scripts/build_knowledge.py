@@ -254,7 +254,7 @@ def llm_extract(post: dict) -> dict | None:
     )
 
     payload = json.dumps({
-        "model": "deepseek-v4-pro",
+        "model": "deepseek-chat",
         "messages": [
             {"role": "system", "content": EXTRACTION_SYSTEM},
             {"role": "user", "content": prompt},
@@ -292,9 +292,9 @@ def phase_b(claims: list[dict], posts: list[dict], max_llm: int = 500) -> list[d
         print("⚠️  未设置 PROMA_API_KEY，跳过 LLM 提取")
         return claims
 
-    # Build index
-    post_map = {p["post_id"]: p for p in posts}
+    # Build index: map post_id → claim
     claim_map = {c["id"].replace("claim-bulk-", ""): c for c in claims}
+    post_map = {p["post_id"]: p for p in posts}
 
     # Priority: Tier 1 (column/marked) + Tier 2 (long >1000 chars)
     priority_ids = [
@@ -307,7 +307,9 @@ def phase_b(claims: list[dict], posts: list[dict], max_llm: int = 500) -> list[d
     enriched = 0
     for i, pid in enumerate(priority_ids, 1):
         post = post_map.get(pid)
-        if not post:
+        claim = claim_map.get(pid)
+        if not post or not claim:
+            print(f"   [{i}/{len(priority_ids)}] {pid}: ⏭️ 未找到")
             continue
 
         print(f"   [{i}/{len(priority_ids)}] {pid}: {post.get('title', post.get('text', '')[:30])[:40]}", end=" ", flush=True)
@@ -318,29 +320,25 @@ def phase_b(claims: list[dict], posts: list[dict], max_llm: int = 500) -> list[d
             continue
 
         # Merge LLM output into the existing skeleton claim
-        claim_id = f"claim-bulk-{pid}"
-        if claim_id in claim_map:
-            c = claim_map[claim_id]
-            c["title"] = extracted.get("title", c["title"])
-            c["system_layer"] = extracted.get("system_layer", c["system_layer"])
-            c["summary"] = extracted.get("summary", c["summary"])
-            c["quote_excerpt"] = extracted.get("quote_excerpt", c["quote_excerpt"])
-            c["evidence_level"] = "A"
-            c["source_status"] = "primary_verified"
-            c["claim_type"] = "author_statement"
-            c["historical_context"] = extracted.get("historical_context", c.get("historical_context", {}))
-            c["external_theories"] = extracted.get("external_theories", [])
-            c["counterevidence"] = extracted.get("counterevidence", [])
-            c["internal_tensions"] = extracted.get("internal_tensions", [])
-            c["falsification_conditions"] = extracted.get("falsification_conditions", [])
-            c["uncertainties"] = extracted.get("uncertainties", [])
-            c["usage_restrictions"] = extracted.get("usage_restrictions", ["不构成投资建议"])
-            c["agent_inference"] = ""
-            c["organizer_summary"] = ""
-            enriched += 1
-            print("✅")
-        else:
-            print("⏭️ 未找到")
+        c = claim
+        c["title"] = extracted.get("title", c["title"])
+        c["system_layer"] = extracted.get("system_layer", c["system_layer"])
+        c["summary"] = extracted.get("summary", c["summary"])
+        c["quote_excerpt"] = extracted.get("quote_excerpt", c["quote_excerpt"])
+        c["evidence_level"] = "A"
+        c["source_status"] = "primary_verified"
+        c["claim_type"] = "author_statement"
+        c["historical_context"] = extracted.get("historical_context", c.get("historical_context", {}))
+        c["external_theories"] = extracted.get("external_theories", [])
+        c["counterevidence"] = extracted.get("counterevidence", [])
+        c["internal_tensions"] = extracted.get("internal_tensions", [])
+        c["falsification_conditions"] = extracted.get("falsification_conditions", [])
+        c["uncertainties"] = extracted.get("uncertainties", [])
+        c["usage_restrictions"] = extracted.get("usage_restrictions", ["不构成投资建议"])
+        c["agent_inference"] = ""
+        c["organizer_summary"] = ""
+        enriched += 1
+        print("✅")
 
         # Save every 50
         if i % 50 == 0:
