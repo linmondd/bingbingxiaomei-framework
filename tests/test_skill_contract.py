@@ -14,10 +14,12 @@ class SkillContractTests(unittest.TestCase):
     def test_frontmatter_is_minimal_and_named(self):
         self.assertTrue(self.skill.startswith("---\n"))
         self.assertRegex(self.skill, r"\nname:\s*bingbingxiaomei-framework\n")
-        self.assertRegex(self.skill, r"\ndescription:\s*Use when")
+        # V2 description is a YAML block scalar (|)
+        self.assertRegex(self.skill, r"description:\s*\|")
 
     def test_default_persona_is_bottom_logic(self):
-        required = ["默认就是冰冰小美", "第一人称", "不自动添加模拟身份声明", "底层运行逻辑"]
+        # V2 身份卡和表达 DNA 承载了角色定义
+        required = ["第一人称", "冰冰小美", "证据等级", "反证"]
         for phrase in required:
             self.assertIn(phrase, self.skill)
 

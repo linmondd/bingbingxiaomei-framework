@@ -1,0 +1,1373 @@
+{
+  "corpus_size": 8411,
+  "corpus_chars": 2475463,
+  "vocabulary": {
+    "total_unique_words": 89725,
+    "total_word_occurrences": 119289,
+    "top200": [
+      {
+        "word": "回复",
+        "count": 970
+      },
+      {
+        "word": "10",
+        "count": 626
+      },
+      {
+        "word": "冰冰小美",
+        "count": 502
+      },
+      {
+        "word": "那么",
+        "count": 480
+      },
+      {
+        "word": "ETF",
+        "count": 355
+      },
+      {
+        "word": "Ai",
+        "count": 339
+      },
+      {
+        "word": "SZ",
+        "count": 338
+      },
+      {
+        "word": "20",
+        "count": 332
+      },
+      {
+        "word": "因此",
+        "count": 320
+      },
+      {
+        "word": "etf",
+        "count": 268
+      },
+      {
+        "word": "50",
+        "count": 226
+      },
+      {
+        "word": "SH",
+        "count": 223
+      },
+      {
+        "word": "the",
+        "count": 219
+      },
+      {
+        "word": "故而",
+        "count": 194
+      },
+      {
+        "word": "15",
+        "count": 151
+      },
+      {
+        "word": "100",
+        "count": 143
+      },
+      {
+        "word": "30",
+        "count": 136
+      },
+      {
+        "word": "300",
+        "count": 130
+      },
+      {
+        "word": "cm",
+        "count": 127
+      },
+      {
+        "word": "12",
+        "count": 126
+      },
+      {
+        "word": "to",
+        "count": 121
+      },
+      {
+        "word": "13",
+        "count": 112
+      },
+      {
+        "word": "40",
+        "count": 105
+      },
+      {
+        "word": "11",
+        "count": 101
+      },
+      {
+        "word": "2018",
+        "count": 97
+      },
+      {
+        "word": "in",
+        "count": 90
+      },
+      {
+        "word": "hw",
+        "count": 90
+      },
+      {
+        "word": "is",
+        "count": 84
+      },
+      {
+        "word": "60",
+        "count": 83
+      },
+      {
+        "word": "34",
+        "count": 81
+      },
+      {
+        "word": "16",
+        "count": 79
+      },
+      {
+        "word": "of",
+        "count": 78
+      },
+      {
+        "word": "2025",
+        "count": 76
+      },
+      {
+        "word": "25",
+        "count": 74
+      },
+      {
+        "word": "2000",
+        "count": 71
+      },
+      {
+        "word": "and",
+        "count": 70
+      },
+      {
+        "word": "目前看",
+        "count": 69
+      },
+      {
+        "word": "2021",
+        "count": 69
+      },
+      {
+        "word": "3000",
+        "count": 69
+      },
+      {
+        "word": "st",
+        "count": 68
+      },
+      {
+        "word": "AI",
+        "count": 67
+      },
+      {
+        "word": "比如",
+        "count": 67
+      },
+      {
+        "word": "18",
+        "count": 67
+      },
+      {
+        "word": "2023",
+        "count": 67
+      },
+      {
+        "word": "1000",
+        "count": 65
+      },
+      {
+        "word": "pe",
+        "count": 62
+      },
+      {
+        "word": "war",
+        "count": 62
+      },
+      {
+        "word": "200",
+        "count": 61
+      },
+      {
+        "word": "同时",
+        "count": 60
+      },
+      {
+        "word": "pb",
+        "count": 59
+      },
+      {
+        "word": "on",
+        "count": 59
+      },
+      {
+        "word": "2022",
+        "count": 58
+      },
+      {
+        "word": "目前",
+        "count": 58
+      },
+      {
+        "word": "比亚迪",
+        "count": 56
+      },
+      {
+        "word": "2024",
+        "count": 56
+      },
+      {
+        "word": "US",
+        "count": 53
+      },
+      {
+        "word": "4000",
+        "count": 52
+      },
+      {
+        "word": "总之",
+        "count": 52
+      },
+      {
+        "word": "14",
+        "count": 51
+      },
+      {
+        "word": "24",
+        "count": 50
+      },
+      {
+        "word": "就这样吧",
+        "count": 49
+      },
+      {
+        "word": "The",
+        "count": 49
+      },
+      {
+        "word": "cpi",
+        "count": 49
+      },
+      {
+        "word": "80",
+        "count": 47
+      },
+      {
+        "word": "聊天贴",
+        "count": 47
+      },
+      {
+        "word": "for",
+        "count": 47
+      },
+      {
+        "word": "17",
+        "count": 47
+      },
+      {
+        "word": "2020",
+        "count": 46
+      },
+      {
+        "word": "are",
+        "count": 46
+      },
+      {
+        "word": "事实上",
+        "count": 45
+      },
+      {
+        "word": "其实",
+        "count": 44
+      },
+      {
+        "word": "芯片",
+        "count": 44
+      },
+      {
+        "word": "cpo",
+        "count": 43
+      },
+      {
+        "word": "4200",
+        "count": 42
+      },
+      {
+        "word": "90",
+        "count": 42
+      },
+      {
+        "word": "这种情况",
+        "count": 42
+      },
+      {
+        "word": "万华化学",
+        "count": 42
+      },
+      {
+        "word": "很明显",
+        "count": 41
+      },
+      {
+        "word": "35",
+        "count": 41
+      },
+      {
+        "word": "收盘",
+        "count": 41
+      },
+      {
+        "word": "500",
+        "count": 40
+      },
+      {
+        "word": "亿元",
+        "count": 40
+      },
+      {
+        "word": "这时候",
+        "count": 39
+      },
+      {
+        "word": "Trump",
+        "count": 39
+      },
+      {
+        "word": "小竹笋儿",
+        "count": 39
+      },
+      {
+        "word": "竞争格局的比较优势",
+        "count": 38
+      },
+      {
+        "word": "万吨",
+        "count": 38
+      },
+      {
+        "word": "不过",
+        "count": 37
+      },
+      {
+        "word": "ipo",
+        "count": 37
+      },
+      {
+        "word": "5000",
+        "count": 37
+      },
+      {
+        "word": "很显然",
+        "count": 37
+      },
+      {
+        "word": "39",
+        "count": 36
+      },
+      {
+        "word": "has",
+        "count": 36
+      },
+      {
+        "word": "pcb",
+        "count": 35
+      },
+      {
+        "word": "化工",
+        "count": 35
+      },
+      {
+        "word": "由此可见",
+        "count": 34
+      },
+      {
+        "word": "今日操作记录",
+        "count": 34
+      },
+      {
+        "word": "万亿",
+        "count": 33
+      },
+      {
+        "word": "这就是",
+        "count": 33
+      },
+      {
+        "word": "买入不败",
+        "count": 33
+      },
+      {
+        "word": "然后",
+        "count": 32
+      },
+      {
+        "word": "换句话",
+        "count": 32
+      },
+      {
+        "word": "23",
+        "count": 32
+      },
+      {
+        "word": "中芯国际",
+        "count": 32
+      },
+      {
+        "word": "2015",
+        "count": 32
+      },
+      {
+        "word": "70",
+        "count": 31
+      },
+      {
+        "word": "随后",
+        "count": 31
+      },
+      {
+        "word": "market",
+        "count": 31
+      },
+      {
+        "word": "19",
+        "count": 31
+      },
+      {
+        "word": "2019",
+        "count": 31
+      },
+      {
+        "word": "33",
+        "count": 30
+      },
+      {
+        "word": "当然",
+        "count": 30
+      },
+      {
+        "word": "28",
+        "count": 30
+      },
+      {
+        "word": "竞争格局",
+        "count": 30
+      },
+      {
+        "word": "400",
+        "count": 30
+      },
+      {
+        "word": "南天信息",
+        "count": 30
+      },
+      {
+        "word": "这个过程",
+        "count": 29
+      },
+      {
+        "word": "于是",
+        "count": 29
+      },
+      {
+        "word": "this",
+        "count": 29
+      },
+      {
+        "word": "55",
+        "count": 29
+      },
+      {
+        "word": "小美酱",
+        "count": 29
+      },
+      {
+        "word": "查看图片",
+        "count": 29
+      },
+      {
+        "word": "流动性辩证分析",
+        "count": 28
+      },
+      {
+        "word": "卖出",
+        "count": 28
+      },
+      {
+        "word": "up",
+        "count": 28
+      },
+      {
+        "word": "924",
+        "count": 28
+      },
+      {
+        "word": "说实在的",
+        "count": 28
+      },
+      {
+        "word": "游戏",
+        "count": 28
+      },
+      {
+        "word": "这是",
+        "count": 27
+      },
+      {
+        "word": "为什么",
+        "count": 27
+      },
+      {
+        "word": "45",
+        "count": 27
+      },
+      {
+        "word": "22",
+        "count": 27
+      },
+      {
+        "word": "流动性",
+        "count": 27
+      },
+      {
+        "word": "This",
+        "count": 27
+      },
+      {
+        "word": "as",
+        "count": 27
+      },
+      {
+        "word": "该内容已被作者删除",
+        "count": 27
+      },
+      {
+        "word": "3600",
+        "count": 27
+      },
+      {
+        "word": "601012",
+        "count": 27
+      },
+      {
+        "word": "MDI",
+        "count": 27
+      },
+      {
+        "word": "今日",
+        "count": 26
+      },
+      {
+        "word": "有时候",
+        "count": 26
+      },
+      {
+        "word": "涨停",
+        "count": 26
+      },
+      {
+        "word": "2026",
+        "count": 25
+      },
+      {
+        "word": "网页链接",
+        "count": 25
+      },
+      {
+        "word": "宁德时代",
+        "count": 25
+      },
+      {
+        "word": "自律的招财小猫",
+        "count": 25
+      },
+      {
+        "word": "套利",
+        "count": 25
+      },
+      {
+        "word": "大港股份",
+        "count": 25
+      },
+      {
+        "word": "江丰电子",
+        "count": 24
+      },
+      {
+        "word": "其中",
+        "count": 24
+      },
+      {
+        "word": "Fed",
+        "count": 24
+      },
+      {
+        "word": "意味着",
+        "count": 24
+      },
+      {
+        "word": "也就是",
+        "count": 24
+      },
+      {
+        "word": "上证",
+        "count": 24
+      },
+      {
+        "word": "从天而降的掌法",
+        "count": 24
+      },
+      {
+        "word": "就是",
+        "count": 23
+      },
+      {
+        "word": "仅此而已",
+        "count": 23
+      },
+      {
+        "word": "三好学生的奖状",
+        "count": 23
+      },
+      {
+        "word": "新能源",
+        "count": 23
+      },
+      {
+        "word": "since",
+        "count": 23
+      },
+      {
+        "word": "ZH",
+        "count": 23
+      },
+      {
+        "word": "同比增长",
+        "count": 23
+      },
+      {
+        "word": "快准狠",
+        "count": 23
+      },
+      {
+        "word": "以上",
+        "count": 23
+      },
+      {
+        "word": "印证",
+        "count": 23
+      },
+      {
+        "word": "也就是说",
+        "count": 23
+      },
+      {
+        "word": "中国卫通",
+        "count": 23
+      },
+      {
+        "word": "隆基股份",
+        "count": 23
+      },
+      {
+        "word": "Etf",
+        "count": 22
+      },
+      {
+        "word": "答案是",
+        "count": 22
+      },
+      {
+        "word": "我觉得",
+        "count": 22
+      },
+      {
+        "word": "附近",
+        "count": 22
+      },
+      {
+        "word": "算力",
+        "count": 22
+      },
+      {
+        "word": "that",
+        "count": 22
+      },
+      {
+        "word": "跌停",
+        "count": 22
+      },
+      {
+        "word": "左右",
+        "count": 22
+      },
+      {
+        "word": "实际上",
+        "count": 22
+      },
+      {
+        "word": "汽车",
+        "count": 22
+      },
+      {
+        "word": "2028",
+        "count": 21
+      },
+      {
+        "word": "长电科技",
+        "count": 21
+      },
+      {
+        "word": "75",
+        "count": 21
+      },
+      {
+        "word": "现在",
+        "count": 21
+      },
+      {
+        "word": "个股",
+        "count": 21
+      },
+      {
+        "word": "增长",
+        "count": 21
+      },
+      {
+        "word": "目标",
+        "count": 21
+      },
+      {
+        "word": "President",
+        "count": 21
+      },
+      {
+        "word": "will",
+        "count": 21
+      },
+      {
+        "word": "21",
+        "count": 21
+      },
+      {
+        "word": "上证指数",
+        "count": 21
+      },
+      {
+        "word": "xx",
+        "count": 21
+      },
+      {
+        "word": "亏钱效应",
+        "count": 21
+      },
+      {
+        "word": "试错",
+        "count": 21
+      },
+      {
+        "word": "不看盘了",
+        "count": 20
+      },
+      {
+        "word": "47",
+        "count": 20
+      },
+      {
+        "word": "1600",
+        "count": 20
+      },
+      {
+        "word": "高低切换",
+        "count": 20
+      },
+      {
+        "word": "操作记录",
+        "count": 20
+      },
+      {
+        "word": "利仁科技",
+        "count": 20
+      },
+      {
+        "word": "27",
+        "count": 19
+      },
+      {
+        "word": "柳工",
+        "count": 19
+      }
+    ],
+    "top50_words": [
+      "回复",
+      "10",
+      "冰冰小美",
+      "那么",
+      "ETF",
+      "Ai",
+      "SZ",
+      "20",
+      "因此",
+      "etf",
+      "50",
+      "SH",
+      "the",
+      "故而",
+      "15",
+      "100",
+      "30",
+      "300",
+      "cm",
+      "12",
+      "to",
+      "13",
+      "40",
+      "11",
+      "2018",
+      "in",
+      "hw",
+      "is",
+      "60",
+      "34",
+      "16",
+      "of",
+      "2025",
+      "25",
+      "2000",
+      "and",
+      "目前看",
+      "2021",
+      "3000",
+      "st",
+      "AI",
+      "比如",
+      "18",
+      "2023",
+      "1000",
+      "pe",
+      "war",
+      "200",
+      "同时",
+      "pb"
+    ]
+  },
+  "sentence_patterns": {
+    "total_sentences": 58828,
+    "avg_sentence_length": 41.1,
+    "median_sentence_length": 29,
+    "sentence_length_p25": 14,
+    "sentence_length_p75": 63,
+    "sentence_length_p90": 80,
+    "question_ratio": 0.0,
+    "top_transitions": [
+      [
+        "但是",
+        1382
+      ],
+      [
+        "如果",
+        1344
+      ],
+      [
+        "因为",
+        950
+      ],
+      [
+        "所以",
+        847
+      ],
+      [
+        "其实",
+        610
+      ],
+      [
+        "因此",
+        480
+      ],
+      [
+        "不过",
+        408
+      ],
+      [
+        "然后",
+        316
+      ],
+      [
+        "同时",
+        226
+      ],
+      [
+        "最后",
+        184
+      ],
+      [
+        "于是",
+        148
+      ],
+      [
+        "反而",
+        142
+      ],
+      [
+        "而且",
+        139
+      ],
+      [
+        "虽然",
+        122
+      ],
+      [
+        "当然",
+        101
+      ],
+      [
+        "毕竟",
+        60
+      ],
+      [
+        "总之",
+        58
+      ],
+      [
+        "然而",
+        48
+      ],
+      [
+        "另外",
+        20
+      ],
+      [
+        "接着",
+        19
+      ]
+    ]
+  },
+  "rhythm": {
+    "total_paragraphs": 8267,
+    "avg_paragraph_length": 110.1,
+    "median_paragraph_length": 69,
+    "empty_line_rate": 0.0171,
+    "br_tags_total": 40737,
+    "numbered_list_ratio": 0.2305
+  },
+  "signature_phrases": [
+    {
+      "phrase": "冰冰小美",
+      "count": 502
+    },
+    {
+      "phrase": "目前看",
+      "count": 69
+    },
+    {
+      "phrase": "比亚迪",
+      "count": 58
+    },
+    {
+      "phrase": "竞争格局的比",
+      "count": 56
+    },
+    {
+      "phrase": "钱效应",
+      "count": 55
+    },
+    {
+      "phrase": "流动性",
+      "count": 53
+    },
+    {
+      "phrase": "亏钱效应",
+      "count": 53
+    },
+    {
+      "phrase": "就这样吧",
+      "count": 49
+    },
+    {
+      "phrase": "聊天贴",
+      "count": 48
+    },
+    {
+      "phrase": "事实上",
+      "count": 45
+    },
+    {
+      "phrase": "这种情况",
+      "count": 44
+    },
+    {
+      "phrase": "很明显",
+      "count": 43
+    },
+    {
+      "phrase": "万华化学",
+      "count": 43
+    },
+    {
+      "phrase": "这时候",
+      "count": 39
+    },
+    {
+      "phrase": "流动性辩证分",
+      "count": 39
+    },
+    {
+      "phrase": "小竹笋儿",
+      "count": 39
+    },
+    {
+      "phrase": "较优势",
+      "count": 38
+    },
+    {
+      "phrase": "很显然",
+      "count": 37
+    },
+    {
+      "phrase": "的变化",
+      "count": 36
+    },
+    {
+      "phrase": "的方向",
+      "count": 35
+    },
+    {
+      "phrase": "竞争格局",
+      "count": 35
+    },
+    {
+      "phrase": "买入不败",
+      "count": 35
+    },
+    {
+      "phrase": "今日操作记录",
+      "count": 35
+    },
+    {
+      "phrase": "由此可见",
+      "count": 34
+    },
+    {
+      "phrase": "的时候",
+      "count": 33
+    },
+    {
+      "phrase": "这就是",
+      "count": 33
+    },
+    {
+      "phrase": "情绪位置变化",
+      "count": 33
+    },
+    {
+      "phrase": "的个股",
+      "count": 33
+    },
+    {
+      "phrase": "换句话",
+      "count": 32
+    },
+    {
+      "phrase": "中芯国际",
+      "count": 32
+    },
+    {
+      "phrase": "的过程",
+      "count": 32
+    },
+    {
+      "phrase": "情绪标",
+      "count": 32
+    },
+    {
+      "phrase": "从天而降的掌",
+      "count": 32
+    },
+    {
+      "phrase": "权重题材模式",
+      "count": 32
+    },
+    {
+      "phrase": "南天信息",
+      "count": 32
+    },
+    {
+      "phrase": "这个过程",
+      "count": 30
+    },
+    {
+      "phrase": "小美酱",
+      "count": 30
+    },
+    {
+      "phrase": "查看图片",
+      "count": 30
+    },
+    {
+      "phrase": "为什么",
+      "count": 29
+    },
+    {
+      "phrase": "说实在的",
+      "count": 28
+    },
+    {
+      "phrase": "有时候",
+      "count": 27
+    },
+    {
+      "phrase": "该内容已被作",
+      "count": 27
+    },
+    {
+      "phrase": "者删除",
+      "count": 27
+    },
+    {
+      "phrase": "网页链接",
+      "count": 26
+    },
+    {
+      "phrase": "江丰电子",
+      "count": 26
+    },
+    {
+      "phrase": "新能源",
+      "count": 26
+    },
+    {
+      "phrase": "宁德时代",
+      "count": 26
+    },
+    {
+      "phrase": "劣币驱逐良币",
+      "count": 26
+    },
+    {
+      "phrase": "高低切换",
+      "count": 26
+    },
+    {
+      "phrase": "同比增长",
+      "count": 25
+    },
+    {
+      "phrase": "自律的招财小",
+      "count": 25
+    },
+    {
+      "phrase": "大港股份",
+      "count": 25
+    },
+    {
+      "phrase": "的节点",
+      "count": 24
+    },
+    {
+      "phrase": "意味着",
+      "count": 24
+    },
+    {
+      "phrase": "也就是",
+      "count": 24
+    },
+    {
+      "phrase": "中国卫通",
+      "count": 24
+    },
+    {
+      "phrase": "隆基股份",
+      "count": 24
+    },
+    {
+      "phrase": "仅此而已",
+      "count": 23
+    },
+    {
+      "phrase": "三好学生的奖",
+      "count": 23
+    },
+    {
+      "phrase": "快准狠",
+      "count": 23
+    },
+    {
+      "phrase": "也就是说",
+      "count": 23
+    },
+    {
+      "phrase": "历史新高",
+      "count": 22
+    },
+    {
+      "phrase": "答案是",
+      "count": 22
+    },
+    {
+      "phrase": "我觉得",
+      "count": 22
+    },
+    {
+      "phrase": "的问题",
+      "count": 22
+    },
+    {
+      "phrase": "实际上",
+      "count": 22
+    },
+    {
+      "phrase": "长电科技",
+      "count": 21
+    },
+    {
+      "phrase": "上证指数",
+      "count": 21
+    },
+    {
+      "phrase": "挣钱效应",
+      "count": 21
+    },
+    {
+      "phrase": "实事求是",
+      "count": 20
+    },
+    {
+      "phrase": "不看盘了",
+      "count": 20
+    },
+    {
+      "phrase": "创业板",
+      "count": 20
+    },
+    {
+      "phrase": "操作记录",
+      "count": 20
+    },
+    {
+      "phrase": "利仁科技",
+      "count": 20
+    },
+    {
+      "phrase": "仙居杨梅最初",
+      "count": 19
+    },
+    {
+      "phrase": "国运投资者",
+      "count": 19
+    },
+    {
+      "phrase": "的风险",
+      "count": 19
+    },
+    {
+      "phrase": "一将功成万骨",
+      "count": 19
+    },
+    {
+      "phrase": "创新药",
+      "count": 19
+    },
+    {
+      "phrase": "总体而言",
+      "count": 19
+    },
+    {
+      "phrase": "复盘亏钱效应",
+      "count": 19
+    },
+    {
+      "phrase": "各位好运",
+      "count": 18
+    },
+    {
+      "phrase": "欧菲光",
+      "count": 18
+    },
+    {
+      "phrase": "巴菲特",
+      "count": 18
+    },
+    {
+      "phrase": "咕咕嘎嘎",
+      "count": 17
+    },
+    {
+      "phrase": "亿市值",
+      "count": 17
+    },
+    {
+      "phrase": "体系三要素",
+      "count": 17
+    },
+    {
+      "phrase": "土归土",
+      "count": 17
+    },
+    {
+      "phrase": "只能说",
+      "count": 17
+    },
+    {
+      "phrase": "真正的高手",
+      "count": 17
+    },
+    {
+      "phrase": "核按钮",
+      "count": 17
+    },
+    {
+      "phrase": "的理解",
+      "count": 17
+    },
+    {
+      "phrase": "反亏钱效应",
+      "count": 17
+    },
+    {
+      "phrase": "人人乐",
+      "count": 17
+    },
+    {
+      "phrase": "回头看",
+      "count": 16
+    },
+    {
+      "phrase": "情绪位置的变",
+      "count": 16
+    },
+    {
+      "phrase": "交割单的收益",
+      "count": 16
+    },
+    {
+      "phrase": "安全与发展",
+      "count": 16
+    },
+    {
+      "phrase": "大国神油",
+      "count": 16
+    },
+    {
+      "phrase": "我来捡破烂",
+      "count": 16
+    }
+  ],
+  "perspective": {
+    "total_chars": 2475463,
+    "density_per_10k": {
+      "first_person": 17.5,
+      "assertion": 2.5,
+      "hedging": 6.2,
+      "numbers": 204.9,
+      "question_words": 10.5
+    }
+  }
+}
