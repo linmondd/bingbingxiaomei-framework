@@ -11,4 +11,5 @@ htmlcov/
 
 # Ingestion pipeline — sensitive local data
 data/scraped/
+data/browser-profile/
 data/xueqiu_auth.json
